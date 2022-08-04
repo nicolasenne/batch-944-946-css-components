@@ -1,0 +1,28 @@
+.flexbox {
+  background-color: yellow;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.square-1 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  flex-grow: 1;
+}
+
+.square-2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 9, 128);
+  flex-grow: 3;
+}
+
+.square-3 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  flex-grow: 2;
+}
